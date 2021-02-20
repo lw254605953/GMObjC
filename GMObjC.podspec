@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.frameworks  = "Foundation", "Security"
   
-  spec.dependency "GMOpenSSL"
+  spec.dependency "GMOpenSSL","2.2.0"
 
   spec.requires_arc = true
 
